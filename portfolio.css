@@ -1,0 +1,296 @@
+body {
+	background-color: white;
+}
+
+#page {
+	margin: 0 auto;
+	width: 974px;
+	height: 480px;
+}
+
+#header {
+	margin: 0 auto;
+	height: 90px;
+	width: 974px;
+	color: #1C1C1C;
+	padding: 10 0 0 0px;
+}
+
+#navigation {
+	margin: 0 auto;
+	position: relative;
+	height: 30px;
+	top: 16px;
+	width: 974px;
+	font-family: WeblysThin, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	
+}
+
+#page_content{
+	font-family: WeblysThin, Helvetica, sans-serif;
+	position: relative;
+	width: 974px;
+	margin: 0 auto;
+	height: 450px;
+	top: 25px;
+}
+
+
+#footer{
+	font-family: WeblysThin, Helvetica, sans-serif;
+	font-size: 12px;
+	position: relative;
+	margin: 0 auto;
+	width: 974px;
+	top: 30px;
+	text-align: center;	
+	color: #1C1C1C;
+}
+
+@font-face{
+	font-family: Weblys;
+	src: url('weblysleekuisb.ttf');
+}
+
+@font-face{
+	font-family: WeblysThin;
+	src: url('weblysleekuisl.ttf');
+}
+
+@font-face{
+	font-family: basictitlefont;
+	src: url('basictitlefont.ttf');
+}
+
+
+
+@font-face{
+	font-family: SweetlyBroken;
+	src: url('SweetlyBroken.ttf');
+}
+
+h1 {
+	font-family: SweetlyBroken;
+	font-size: 60px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+h2 {
+	font-family: WeblysThin;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: -15px;
+}
+
+.navigation_bar {
+	padding-left: 10.5px;
+	padding-right: 10.5px;
+	height: 30px;
+	min-width: 127px;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	text-align: center; 
+	background-color: #99004C;
+	line-height: 30px;
+}
+
+
+.navigation_bar:hover {
+	background-color: #009966;
+}
+
+.navigation_bar#actual {
+	background-color: #009966;
+}
+
+
+#square_BigLeft {
+	margin-top: -2px;	
+	width: 482px;
+	height: 450px;
+	float: left;
+	background-color: #009966;
+	margin-right: 5px;
+}
+
+
+.pic_BL {
+	background-color: white;
+	margin: 2px;
+	width: 478px;
+	height: 406px;
+	overflow: hidden;
+}
+
+.pic_BL img {
+    width: auto;
+    height: 406px;
+}
+
+#square_UpRight {
+	margin-top: -2px;	
+	width: 482px;
+	float: left;
+	height: 285px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: #009966;	
+}
+
+
+.pic_UR {
+	background-color: white;
+	width: 478px;
+	margin: 2px;
+	height: 241px;
+	overflow: hidden;
+}
+
+.pic_UR img {
+    width:491px;
+    height: auto;
+}
+
+#square_LowRight {
+	margin-top: -2px;	
+	width: 482px;
+	height: 155px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: #009966;
+}
+
+
+.pic_LR {
+	background-color: white;
+	width: 478px;
+	margin: 2px;
+	height: 111px;
+	overflow: hidden;
+}
+
+.pic_LR img {
+    width:491px;
+    height: auto;
+}
+
+.nolink {
+	text-decoration: none;
+	color: inherit;
+}
+
+h3 {
+	text-align: left;
+	font-family: Weblys;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-left: 20px;
+}
+
+h4 {
+	font-family: WeblysThin;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#text_container {
+	padding-left: 60px;
+	padding-top: 30px;
+	float: left;
+}
+
+#pic_preview {
+	height: 250px;
+	width: 350px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+
+}
+
+#pic_preview_msc {
+	height: 250px;
+	width: 340px;
+	left: 560px;
+	top: 100px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+
+}
+
+
+#pic_preview_small {
+	height: 250px;
+	width: 400px;
+	float: left;
+	left: 530px;
+	top: 2px;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-size: 50%;
+	background-repeat:no-repeat;
+	position: absolute;
+	background-position:center center;
+}
+
+#pic_preview_small_msc {
+	height: 200px;
+	width: 350px;
+	float: left;
+	left: 560px;
+	top: 100px;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-size: 50%;
+	background-repeat:no-repeat;
+	position: absolute;
+	background-position:center center;
+}
+
+.type1 {
+	margin: 0 auto;
+	margin-left: 20px;
+	font-size: 14px;
+} 
+
+.type2 {
+	font-size: 14px;
+} 
+
+.type3 {
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+a {
+	color: #99004C;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+li:before {
+	content: "-  "
+}
