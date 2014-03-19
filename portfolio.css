@@ -215,6 +215,20 @@ h5 {
 	height: 250px;
 	width: 350px;
 	float: left;
+	margin-top: 80px;
+	margin-left: 30px;
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+
+}
+
+#pic_preview_current {
+	height: 250px;
+	width: 340px;
+	left: 590px;
+	top: 30px;
+	position: absolute;
 	margin-top: 60px;
 	margin-left: 30px;
 	background-size: contain;
@@ -226,8 +240,8 @@ h5 {
 #pic_preview_msc {
 	height: 250px;
 	width: 340px;
-	left: 560px;
-	top: 100px;
+	left: 580px;
+	top: 150px;
 	position: absolute;
 	margin-top: 60px;
 	margin-left: 30px;

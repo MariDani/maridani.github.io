@@ -11,12 +11,12 @@
 
 	<script type="text/javascript">
  		function chbg() {
-		    document.getElementById('pic_preview').style.backgroundImage = "url(none)";
+		    document.getElementById('pic_preview_current').style.backgroundImage = "url(none)";
 		} 
 
 		function showpic(url) {
 		    document
-		    	.getElementById('pic_preview').style.backgroundImage=url;
+		    	.getElementById('pic_preview_current').style.backgroundImage=url;
 		} 
 
 		function showpic_small(url) {
@@ -53,17 +53,17 @@
 		 		<p class="type2">Android map application</p>
 				<ul class="type3">
 					<li>mobile application for maps USE-IT &#268;esk&#233; Bud&#283;jovice and &#268;esk&#253; Krumlov</li>
-					<li>published on GooglePlay (<a onmouseover="showpic('url(files/app_3.png)')" onmouseout="chbg()" href="https://play.google.com/store/apps/details?id=com.marialice.mapapp">&#268;esk&#233; Bud&#283;jovice</a>, <a onmouseover="showpic('url(files/app_2.png)')" onmouseout="chbg()" href="https://play.google.com/store/apps/details?id=com.marialice.mapappck">&#268;esk&#253; Krumlov</a>)</li>
+					<li>published on GooglePlay (<a onmouseover="showpic('url(files/app_3.png)')" onmouseout="chbg()" href="https://play.google.com/store/apps/details?id=com.marialice.mapapp">&#268;esk&#233; Bud&#283;jovice</a>, <a onmouseover="showpic('url(files/app2.png)')" onmouseout="chbg()" href="https://play.google.com/store/apps/details?id=com.marialice.mapappck">&#268;esk&#253; Krumlov</a>)</li>
 					<li>group project with Alice R&#252;hl</li>
 					<li>information from <a onmouseover="showpic('url(files/cb_2.jpg)')" onmouseout="chbg()" href="http://use-it.cz/getmap?lang=en&city=cb_krumlov">USE-IT &#268;esk&#233; Bud&#283;jovice and &#268;esk&#253; Krumlov</a></li>
 					<li>Eclipse, ADT</li>
 					<br>
-					<li>IN PROGRESS: creating MBTiles in <a href="https://www.mapbox.com/tilemill/">TileMill</a> and making the application (tileoverlay) offline </li>
+					<li>IN PROGRESS: creating MBTiles in <a onmouseover="showpic('url(files/tilemill-logo.png)')" onmouseout="chbg()" href="https://www.mapbox.com/tilemill/">TileMill</a> and making the application (tileoverlay) offline </li>
 				</ul>
 				
 		 	</div>
 
-		 	<div id="pic_preview"></div>
+		 	<div id="pic_preview_current"></div>
 			<div id="pic_preview_small"></div>
 
 		</div>
