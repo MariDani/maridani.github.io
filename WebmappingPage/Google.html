@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web Mapping</title>
+	<meta name="robots" content="none" />
+	<link rel="stylesheet" type="text/css" href="Webmapping_style.css" media="screen,projection" />
+	<script type="text/javascript"
+	      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdz8IA18jpV8AbAFsTyWxPYb9CI8jKdpU&sensor=true">
+	    </script>
+	    <script type="text/javascript">
+	     function initialize() {
+		  var myLatlng = new google.maps.LatLng(44.369599, 6.602837);
+		  var mapOptions = {
+		    zoom: 10,
+		    center: myLatlng,
+		    mapTypeId: google.maps.MapTypeId.SATELLITE
+		  }
+
+		  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		  var image = 'Images/icon2.png';
+
+		  var contentString = '<div id="content">'+
+		      '<div id="siteNotice">'+
+		      '</div>'+
+		      '<h1 id="firstHeading" class="firstHeading">Pra Loup</h1>'+
+		      '<div id="bodyContent">'+
+		      '<p>Location of ski resort called Pra Loup. This ski resort is located in southern Part of France.</p>'+
+
+		      '<p>It is divided in two parts: the first Part is called Pra Loup 1600 and this is the main part with most of the shops and restaurants. Newly built second part is called Pra Loup 1500 and it is located quite far from the main center. However there are free skibuses &#39;navette&#39; connecting both parts quite frequently.</p>'+
+		      '<a id="link" href=http://www.praloup.com/> Official website of Pra Loup<a>'
+		      '</div>'+
+		      '</div>';
+
+		  var infowindow = new google.maps.InfoWindow({
+		      content: contentString,
+		      maxWidth: 200
+		  });
+
+		  var marker = new google.maps.Marker({
+		      position: myLatlng,
+		      map: map,
+		      title: 'Pra Loup',
+		      icon: image
+		  });
+		  google.maps.event.addListener(marker, 'click', function() {
+		    infowindow.open(map,marker);
+		  });
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+			     </script>
+</head>
+
+<body>
+	<div id="page">
+
+		<div id="header">		
+			<img src="Images/header.jpg" width="900" height="200" alt="Webmapping header picture" title="Web Mapping" />
+			<div id="headings">
+				<h1>Web Mapping</h1>
+				<h2>Summer semester 2013</h2>
+			</div>
+		</div>
+
+		<div id="navigation">
+			<div class="bar"><a class="nolink" href=Index.html >HOME</a></div>
+			<div class="bar"><a class="nolink" href=About_me.html >ABOUT ME</a></div>
+			<div class="bar"><a class="nolink" href=Services.html >MAPPING SERVICES</a></div>
+			<div class="bar"><a class="nolink" id="actual" href=Google.html >GOOGLE MAPS API</a></div>
+			<div class="bar"><a class="nolink" href=OSM.html >OSM</a></div>
+			<div class="bar"><a class="nolink" href=Usability.html >USABILITY</a></div>
+		</div>
+
+		<div id="content2">
+			<h3>Google Maps API</h3>
+
+			<h4>Maps of Pra Loup</h4>
+
+			<p>In the map below you can see the overview of the Pra Loup. There are defined two main part of this ski resort, some grocery shop, cable cabins, chairlifts, and interesting mountain peak within this area.</p>
+				
+			<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=213790562747797436548.0004db0d10913c723b7c7&amp;hl=cs&amp;ie=UTF8&amp;ll=44.359602,6.59615&amp;spn=0.022195,0.036902&amp;t=p&amp;output=embed"></iframe>
+			<br />
+			<p>Display Pra Loup on a <a class="link" href="https://maps.google.com/maps/ms?msa=0&amp;msid=213790562747797436548.0004db0d10913c723b7c7&amp;hl=cs&amp;ie=UTF8&amp;ll=44.359602,6.59615&amp;spn=0.022195,0.036902&amp;t=p&amp;source=embed" >bigger</a> map</p>
+
+			
+			<h4>My experience with working with the API</h4>
+
+			<p> Working with google API is in the beginning more difficult than creating mash ups in Google Maps. However when user gets used to the programming code it might have more advantages and possibilites for making the map more personal. I would like to highlight the option of JavaScript to set the Google maps in exact the position and visualization as I want to.</p>
+			<p>You can see my result of marker and info window bellow:</p>
+
+			<div id="map-canvas"></div>
+		</div>
+
+		<div id="footer">
+			<p>&#169; Mariana Danielov&#225;, 1229421, March - May 2013, Vienna</p>
+		</div>
+		
+	</div>
+
+</body>
+</html>

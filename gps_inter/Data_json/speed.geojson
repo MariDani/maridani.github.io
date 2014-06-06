@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "id": null, "speed": 5 }, "geometry": { "type": "LineString", "coordinates": [ [ 16.370509236468372, 48.212650342706375 ], [ 16.375089620633439, 48.220700714875278 ] ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "id": null, "speed": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 16.376061217274515, 48.2293062851248 ], [ 16.390218768330179, 48.216397929750521 ], [ 16.390218768330179, 48.216397929750521 ] ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "id": null, "speed": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 16.38369519088296, 48.202101579174702 ], [ 16.391329164491406, 48.212511543186217 ], [ 16.390079968810024, 48.216397929750521 ] ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "id": null, "speed": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 16.376061217274515, 48.229445084644951 ], [ 16.374950821113288, 48.220839514395429 ] ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "id": 3, "speed": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 16.370786835508682, 48.212927941746678 ], [ 16.383417591842655, 48.202101579174702 ], [ 16.383417591842655, 48.202101579174702 ] ] } }
+
+]
+}

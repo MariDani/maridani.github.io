@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web Mapping</title>
+	<meta name="robots" content="none" />
+	<link rel="stylesheet" type="text/css" href="Webmapping_style.css" media="screen,projection" />
+</head>
+
+<body>
+	<div id="page">
+
+		<div id="header">		
+			<img src="Images/header.jpg" width="900" height="200" alt="Webmapping header picture" title="Web Mapping" />
+			<div id="headings">
+				<h1>Web Mapping</h1>
+				<h2>Summer semester 2013</h2>
+			</div>
+		</div>
+
+		<div id="navigation">
+				<div class="bar"><a class="nolink"href=Index.html >HOME</a></div>
+			<div class="bar"><a class="nolink" href=About_me.html >ABOUT ME</a></div>
+			<div class="bar"><a class="nolink" id="actual" href=Services.html >MAPPING SERVICES</a></div>
+			<div class="bar"><a class="nolink" href=Google.html >GOOGLE MAPS API</a></div>
+			<div class="bar"><a class="nolink" href=OSM.html >OSM</a></div>
+			<div class="bar"><a class="nolink" href=Usability.html >USABILITY</a></div>
+		</div>
+
+		<div id="content2">
+			<h3>Mapping services</h3>
+			<h4>Proprietary mapping services</h4>
+				<p>Google maps</p>
+					<a href="https://maps.google.com/"><img src="Images/google.png" width="300"  alt="Google maps" title="Google maps" />
+					</a>
+				<br />
+				
+				<p>Bing maps</p>
+					<a href="http://maps.bing.com">
+						<img src="Images/bing.png" width="300" alt="Bing maps" title="Bing maps" />
+					</a>
+				<br />
+					
+				<p>Yahoo maps</p>
+					<a href="http://maps.yahoo.com">
+						<img src="Images/yahoo.png" width="300" alt="Yahoo maps" title="Yahoo maps" />
+					</a>
+				<br />
+
+			<h4>Open source mapping services</h4>
+				<p>OpenStreet Browser</p>
+					<a href="http://www.openstreetbrowser.org">
+						<img src="Images/osm.png" width="300" alt="OSM" title="OSM" />
+					</a>
+				<br />
+
+			<h4>Summary of my observations</h4>
+
+			<p>The pictures above show results from four different map services for searched expression 'Vienna, Austria'. As you can see maps are zoomed to different scale and but the overall design is quite similar.</p>
+			<p class="highlight1" >What do the services have in common?</p>
+			<p>These service are showing maps rendered in different ways, user can zoom in and out a move the map as he/she desires. There is possibility to change basemap to satelite or road map (mostly) and some additional layers. More over in all maps there is the tool for finding direction.</p>
+
+			<p class="highlight1" >Which things are shown?</p>
+
+			<p>In every of these maps there are different basemaps, layers and functions. As a basemaps there are mostly road and satelite maps. Sometimes there are hybrid maps which are satelite maps with labels. In Open Street Browser user can choose between several OSM maps as a basemaps or he/she has possibility to display no basemap which is unique. Additional layers show traffic, transit, photos, weather, cycling paths, terrain, webcams or videos. In case of OpenStreet Browser user  has the possibility to select his content from dozens of layers. Furthermore there is possibility of streetview and bird view (that is equal to 45°).</p>
+
+			<p class="highlight1" >What do you like and dislike?</p>
+
+			<p>I like the possibility in OpenStreet Browser to not show any basemap but only selected layers with thematic content. However the basemaps are quite distracting from other content and they may be more generalized. In Bing maps I admire the possibility to make my one places without having an account and than export it to KML or GPX. Disadvantege of Bing maps is that in compared to Google maps they have street view only in big USA cities. Google maps have of  course the biggest range of layers from all proprietary mapping services, specially I like the terrain and webcam layer because they are so uniqe. Finally special think in Yahoo maps which I like is the opportunity to share the map directly to Facebook, Twitter or Google+.</p>
+			<p class="highlight1" >Table with a comparison of these services:</p>  
+
+			<table>
+				<tr>
+					<td></td>
+					<td class="table2">Google maps</td>
+					<td class="table2">Bing maps</td>
+					<td class="table2">Yahoo maps</td>
+					<td class="table2">OpenStreet Browser</td>
+				</tr>
+				<tr>
+					<td class="table2">Basemap</td>
+					<td class="table1">satelite, road map</td>
+					<td class="table1">aerial, road map</td>
+					<td class="table1">satelite, hybrid, road map</td>
+					<td class="table1">different rendering of OSM, no basemap, grid</td>
+				</tr>
+				<tr>
+					<td class="table2">Layers</td>
+					<td class="table1">traffic, transit, photos, weather, English, bicycling, terrain, webcams, videos, 45&#186;, labels</td>
+					<td class="table1">traffic, transit, bird's eye</td>
+					<td class="table1">traffic, transit, photos, weather</td>
+					<td class="table1">leisure, sport, shopping, services, culture, religion, transportation, agriculture, industry, places and more</td>
+				</tr>
+				<tr>
+					<td class="table2">Street view</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes (but only big cities in the USA)</td>
+					<td class="table1">no</td>
+					<td class="table1">no</td>
+				</tr>
+				<tr>
+					<td class="table2">Get direction</td>
+					<td class="table1">by car, public transport, walking, cycling</td>
+					<td class="table1">by car, public transport, walking</td>
+					<td class="table1">by car</td>
+					<td class="table1">by car, walking, cycling</td>
+				</tr>
+				<tr>
+					<td class="table2">'My places'</td>
+					<td class="table1">only with an account</td>
+					<td class="table1">possible without an account</td>
+					<td class="table1">no</td>
+					<td class="table1">not directly in this OpenStreet Browser</td>
+				</tr>
+				<tr>
+					<td class="table2">'My Location'</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes</td>
+				</tr>
+				<tr>
+					<td class="table2">Print</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes</td>
+					<td class="table1">yes</td>
+					<td class="table1">no</td>
+				</tr>
+				<tr>
+					<td class="table2">Share</td>
+					<td class="table1">URL, (email when signed in) </td>
+					<td class="table1">URL, email, Facebook, Twitter</td>
+					<td class="table1">URL, email, Facebook, Twitter, Google+</td>
+					<td class="table1">no</td>
+				</tr>
+				<tr>
+					<td class="table2">Export</td>
+					<td class="table1">KML when signed in</td>
+					<td class="table1">KML, GPX</td>
+					<td class="table1">no</td>
+					<td class="table1">no</td>
+				</tr>
+				<tr>
+					<td class="table2">Full screen</td>
+					<td class="table1">no</td>
+					<td class="table1">yes</td>
+					<td class="table1">no</td>
+					<td class="table1">no</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="footer">
+			<p>&#169; Mariana Danielov&#225;, 1229421, March - May 2013, Vienna</p>
+		</div>
+	</div>
+
+</body>
+</html>
