@@ -70,10 +70,39 @@ div.col-md-3 h4.text-centre {
 	margin-bottom: 2.5em;
 }
 
-#mycarousel {
-	margin-top: 5em;
+
+/*----------------------*/
+/*navbar*/
+/*----------------------*/
+
+#navbar {
+	margin-bottom: 0px;
 }
 
+/*----------------------*/
+/*footer*/
+/*----------------------*/
+
+#footer {
+	margin-bottom: 0px;
+}
+
+/*----------------------*/
+/*carousel*/
+/*----------------------*/
+
+#mycarousel {
+	margin: 0px;
+}
+
+.carousel-inner div img {
+	width: 100%;
+}
+
+
+/*----------------------*/
+/*media*/
+/*----------------------*/
 
 @media (min-width: 922px) {
 	.div-logo {
