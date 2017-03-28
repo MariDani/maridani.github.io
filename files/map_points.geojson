@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TUM",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",
+        "icon": {
+          "iconUrl": "images/pin_green.png",
+          "iconSize": [40,40],
+          "iconAnchor": [20,40],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5679,
+          48.1497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TU Wien",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",
+        "icon": {
+          "iconUrl": "images/pin_green.png",
+          "iconSize": [40,40],
+          "iconAnchor": [20,40],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3685,
+          48.1987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TU Dresden",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
+        "icon": {
+          "iconUrl": "images/pin_green.png",
+          "iconSize": [40,40],
+          "iconAnchor": [20,40],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7290,
+          51.0293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Prf UK",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
+        "icon": {
+          "iconUrl": "images/pin_violet.png",
+          "iconSize": [40,40],
+          "iconAnchor": [20,40],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4245,
+          50.0689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wiek",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
+        "icon": {
+          "iconUrl": "images/pin_heart.png",
+          "iconSize": [30,30],
+          "iconAnchor": [15,30],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2919,
+          54.6223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Val Thorens",
+        "description": "155 9th St, San Francisco",
+        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
+        "icon": {
+          "iconUrl": "images/pin_star.png",
+          "iconSize": [36,36],
+          "iconAnchor": [18,36],
+          "popupAnchor": [0, -25],
+          "className": "dot"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5821,
+          45.2979
+        ]
+      }
+    }
+  ]
+}

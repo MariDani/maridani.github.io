@@ -88,14 +88,13 @@ div.col-md-3 h4.text-centre {
 }
 
 /*----------------------*/
-/*carousel*/
+/*map*/
 /*----------------------*/
 
-#mycarousel {
-	margin: 0px;
-}
-
-.carousel-inner div img {
+#map {
+	position: inherit;
+	margin-top: 2.5em;
+	height: 40em;
 	width: 100%;
 }
 
