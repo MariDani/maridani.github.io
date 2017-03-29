@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "TUM",
-        "description": "155 9th St, San Francisco",
-        "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",
+        "title": "Technical University of Munich",
+        "description": "International Master in Cartography",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpuMGHGyQLVp1B9jbAKwvmcKmTWngI0eHsvaKbYPayLE_bdBuI60GiVA",
         "icon": {
           "iconUrl": "images/pin_green.png",
           "iconSize": [40,40],
@@ -26,8 +26,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "TU Wien",
-        "description": "155 9th St, San Francisco",
+        "title": "Vienna University of Technology",
+        "description": "International Master in Cartography",
         "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",
         "icon": {
           "iconUrl": "images/pin_green.png",
@@ -48,8 +48,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "TU Dresden",
-        "description": "155 9th St, San Francisco",
+        "title": "Dresden University of Technology",
+        "description": "International Master in Cartography",
         "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
         "icon": {
           "iconUrl": "images/pin_green.png",
@@ -70,8 +70,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Prf UK",
-        "description": "155 9th St, San Francisco",
+        "title": "Charles University in Prague",
+        "description": "Bachelor program Geography and Cartography + <i>current location</i>",
         "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
         "icon": {
           "iconUrl": "images/pin_violet.png",
@@ -92,8 +92,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Wiek",
-        "description": "155 9th St, San Francisco",
+        "title": "R&uuml;gen, Germany",
+        "description": "&#35;kiteboarding &#35;relaxing &#35;friends &#35;fischbrotchen &#35;nordgold &#35;summer",
         "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
         "icon": {
           "iconUrl": "images/pin_heart.png",
@@ -114,8 +114,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Val Thorens",
-        "description": "155 9th St, San Francisco",
+        "title": "Les Trois Vall&eacute;es, France",
+        "description": "&#35;snowboarding &#35;skiing &#35;freeriding &#35;alps &#35;mountains &#35;winter &#35;friends",
         "image": "https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg",        
         "icon": {
           "iconUrl": "images/pin_star.png",
