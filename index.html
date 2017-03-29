@@ -1,128 +1,246 @@
 <!doctype html>
 <html>
 <head>
-	<title>Mariana Danielov&#225;</title>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Mariana Danielov&#225;, Mariana Danielova, cartographer, mariana danielova, cartography">
-	<!-- <link rel="stylesheet" type="text/css" href="portfolio.css" media="screen,projection" /> -->
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen,projection" />
-	<!--Bootstrap links-->
-	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- favicon - it is displayed in tab, in browser -->
-	<link rel="icon" type="image/png" href="images/favicon.png" />
-	<!-- favicon - it is displayed in tab, in browser -->
-	<link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Mariana Danielov&#225;</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Mariana Danielov&#225;, Mariana Danielova, cartographer, mariana danielova, cartography">
+    <!-- <link rel="stylesheet" type="text/css" href="portfolio.css" media="screen,projection" /> -->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen,projection" />
+    <!--Bootstrap links-->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- favicon - it is displayed in tab, in browser -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- favicon - it is displayed in tab, in browser -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- Mapbox links -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+      <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
 </head>
 
 <body>
 
-	<!--navigation bar-->
+    <!--navigation bar-->
 
-	<nav class="navbar navbar-inverse" id="navbar" role="navigation">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">MariDani</a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling 	-->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav" id="navigation">
-					 
-				  	<li><a href="msc.html">MSc. Cartography</a></li>
-				  	<li><a href="bc.html">Bc. Geography and cartography</a></li>
-				  	<li><a href="useit.html">USE-IT project</a></li>
-				  	<li><a href="about.html">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
+    <nav class="navbar navbar-inverse" id="navbar" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">MariDani</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling   -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="navigation">
+                     
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
-	<!-- carousel -->		
-	<div>
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>   
-		  </ol>
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-		    <div class="item active">
-		      <img src="images/pano1.jpg" alt="pano picutre">
-		      	<div class="carousel-caption"> 
-				    <p>Drei Br&uuml;der, Austria</p>
-			     </div>
-		    </div>
+    <!-- Main body -->
 
-		    <div class="item">
-		      <img src="images/pano2.jpg" alt="pano picutre">
-		      	<div class="carousel-caption"> 
-				    <p>Dachsteingebirge, Austria</p>
-			     </div>		      
-		    </div>
+    <div class="container">
+        <div class="row">
 
-		    <div class="item">
-		      <img src="images/pano3.jpg" alt="pano picutre">
-		      	<div class="carousel-caption"> 
-				    <p>Krippenstein, Austria</p>
-			     </div>			      
-		    </div>
+            <div class="col-sm-12 col-md-12">
+                <div class="row">
+                    <!-- Map -->
+                    <div class="col-sm-12 col-md-9">
+                        <div id='map' class='map'></div>
+                    </div>
 
-		    <div class="item">
-		      <img src="images/pano4.jpg" alt="pano picutre">
-		      	<div class="carousel-caption"> 
-				    <p>GR20, Corsica</p>
-			     </div>			      
-		    </div>
-		  </div>
+                    <!-- Header -->
+                    <div class="page-header col-sm-12 col-md-3" >
+                        <h1>Mariana Danielov&#225;</h1>
+                        <p class="lead">CARTOGRAPHER</p>
+                        <blockquote>
+                          <p>Cartography is the discipline dealing with the art, science and technology of making and using maps.</p>
+                          <small><a href="http://www.icaci.org">www.icaci.org</a></small>
+                        </blockquote>   
+                    </div>                  
+                </div>
+            </div>
 
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span></a>
-	</div>
 
-	<!-- Main body -->
+            <!-- Projects -->
+            <div class="col-sm-12 col-md-12" id="projects">
+                <h3>Projects:</h3>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-sm-offset-11 col-md-offset-11">
+                        <a href="#navbar">up</a>
+                    </div>
+                </div>
 
-	<div class="container">
-		<div class="row">
-		<div class="page-header center_text col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3" >
-			<h1>Mariana Danielov&#225;</h1>
-			<p class="lead">CARTOGRAPHER</p>
-			<blockquote>
-			  <p>Cartography is the discipline dealing with the art, science and technology of making and using maps.</p>
-			  <small><a href="http://www.icaci.org">www.icaci.org</a></small>
-			</blockquote>
-			<!-- <p>The biggest trends of <strong>modern cartography</strong> are: web mapping, mobile mapping, interactive maps, 3D and 4D maps, augmented reality, real time mapping, GIS, paper mapping, or LBS. It handles visualization of social media data and big data. Additionaly, cartography helps through crowd sourcing, for example Haiti or Indonesia.</p> -->
-				
-		</div>
-		</div>
-		</div>
-	</div>
+                <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <a href="design_contest.html"><img src="files/vallonais_prew.JPG" alt="Design Contest" class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Design Contest</h4>
+                    <p>First place in Gravity Design Contest 2017 - contest of snowboard design</p>
+                    <p>QGIS + Inkscape + Gimp + OSM data</p> 
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="diana_temple.html"><img src="files/excavation_prew.PNG" alt="Visual Reconstruction" class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Visual Reconstruction</h4>
+                    <p>3D Reconstruction and Uncertainty Modelling using Fuzzy Logic of Archeological Structures <i>(M.Sc. thesis)</i></p>
+                    <p>ArcGIS + City Engine + SketchUp</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="#projects"><img src="files/kite_prew.jpg" alt="GPS sport tracking" class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">GPS sport tracking</h4>
+                    <p>Editing and visualizing data from GPS logger</p>
+                    <p>GPS data + QGIS + GoogleEarth</p>
+                </div>
+            </div>               
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <a href="https://play.google.com/store/apps/details?id=com.marialice.mapapp"><img src="files/CB_application.png" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Android Map App</h4>
+                    <p>Android Development, group project with Alice R&#252;hl</p>
+                    <p>Eclipse + Java + Mapbbox API</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="files/Sudd_map_RGB.pdf"><img src="files/sudd_prew.JPG" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Radar data Analysis</h4>
+                    <p>Extraction of the map of the Sudd wetlands, central Africa</p>
+                    <p>ArcGIS + Inkscape</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="https://github.com/AliceR/InteractiveWalkVienna"><img src="files/toomuchhistory_prew.JPG" alt="D3 project" class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">D3 project</h4>
+                    <p>Playing with D3, creation of map, group project with Alice R&#252;hl</p>
+                    <p>JavaScript + D3 + OSM data</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <a href="files/vienna.svg"><img src="files/svg.JPG" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Multimedia project</h4>
+                    <p>Beginnings with D3 and SVG</p>
+                    <p>HTML + SVG + Inkscape</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="http://visualizing.org/visualizations/visualization-gps-tracking-vienna"><img src="files/Hour_small.png" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">GPS tracking</h4>
+                    <p>Visualization of GPS tracking of students movement in Vienna</p>
+                    <p>GPS data + ArcMap + Adobe InDesign</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="http://prezi.com/og5omvpgedst/top-landmarks-in-vienna/?utm_campaign=share&utm_medium=copy"><img src="files/LBS_prew.jpg" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Flickr API</h4>
+                    <p>Analysis of Flickr data in order to get the top 10 landmarks in Vienna, group project</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <a href="#projects"><img src="files/useit_prew.jpg" alt="Printed Maps Designer" class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Printed Maps Designer</h4>
+                    <p>Creation and design of paper maps for USE-IT Europe project</p>
+                    <p>ArcGIS + QGIS + OSM data </p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <a href="#projects"><img src="files/webmap_prew.JPG" alt="..." class="img-circle img-responsive img-centre"></a>
+                    <h4 class="text-centre">Web Mapping</h4>
+                    <p>My first webpage</p>
+                    <p>HTML + CSS + Google API + OSM</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <img src="files/map_projection_prew.jpg" alt="Carto Gifts" class="img-circle img-responsive img-centre">
+                    <h4 class="text-centre">Cartographic Projections</h4>
+                    <p>Hand crafts</p>
+                    <p>Scissors + Glue</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <img src="files/mapdesign_prew.JPG" alt="..." class="img-circle img-responsive img-centre">
+                    <h4 class="text-centre">Presentations</h4>
+                    <p><a href="http://prezi.com/vov5jlpuyede/?utm_campaign=share&utm_medium=copy&rc=ex0share">Map design for web mapping</a> (Prezi)</p>
+                    <p><a href="http://prezi.com/1wwjpvtwol25/?utm_campaign=share&utm_medium=copy&rc=ex0share">Increasing effectiveness of animated maps</a> (Prezi)</p>
+                </div>
+                <div class="col-sm-4 col-md-3 col-md-offset-1">
+                    <img src="files/carto_gift2_prew.jpg" alt="Carto Gifts" class="img-circle img-responsive img-centre">
+                    <h4 class="text-centre">Carto Gifts</h4>
+                    <p>Hand crafts</p>
+                    <p>Scissors + Glue</p>
+                </div>            
+            </div>
+            <br>
+            </div>
+            <br>
 
-	<br>
+            <!-- Contact -->
+            <div class="col-sm-12 col-md-12" id="contact">
+                <h3>Contact:</h3>
+                 <div class="row">
+                    <div class="col-sm-1 col-md-1 col-sm-offset-11 col-md-offset-11">
+                        <a href="#navbar">up</a>
+                    </div>
+                </div>               
+                <div class="row">
+                    <div class="col-sm-12 col-md-11">
+                        <ul>
+                            <li><a href="http://cz.linkedin.com/in/marianadanielova">LinkedIn</a></li>
+                            <li><a href="https://github.com/MariDani">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-	<nav class="navbar navbar-inverse navbar-bottom" role="navigation" id="footer">
-		<div class="container-fluid">
-			<p class="navbar-text navbar-right">&#169; Mariana Danielov&#225;, May 2014</p>
-		</div><!--/.container-fluid-->
-	</nav>
+        </div> <!-- /.row -->
+    </div><!-- /.container -->
+
+    <br>
+
+    <nav class="navbar navbar-inverse navbar-bottom" role="navigation" id="footer">
+        <div class="container-fluid">
+            <p class="navbar-text navbar-right">&#169; Mariana Danielov&#225;, 2017</p>
+        </div><!--/.container-fluid-->
+    </nav>
 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>		
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>    
+
+<!-- Map -->    
+<script>
+// Add your access token
+L.mapbox.accessToken = 'pk.eyJ1IjoibWFyaWRhbmkiLCJhIjoiSGF2TGdwZyJ9.B0N8ybRGG38wmRK_VfxPoA';
+
+// Create the map
+var map = L.mapbox.map('map').setView([50.0755, 14.4378], 5);
+
+// Add the style to your map as image tiles
+L.mapbox.styleLayer('mapbox://styles/maridani/cj0tkz7q000gl2rtaw5jxzvbr').addTo(map);
+
+
+  var myLayer = L.mapbox.featureLayer()
+    .loadURL('files/map_points.geojson')
+    .addTo(map);
+
+// Set a custom icon on each marker based on feature properties.
+myLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+    feature = marker.feature;
+  marker.setIcon(L.icon(feature.properties.icon));
+  var content = '<p>' + feature.properties.title + '</p><h1>' + feature.properties.description + '</h1>';
+  marker.bindPopup(content);
+});
+
+map.scrollWheelZoom.disable();
+</script>
+
 </body>
 </html>
