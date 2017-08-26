@@ -20336,7 +20336,7 @@ function init () {
 
 
     //load model
-    var url_model = "/data/g4_01.vtk";
+    var url_model = "/bublinka/data/g4_01.vtk";
     var actor_model = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     var mapper_model  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
@@ -20348,7 +20348,7 @@ function init () {
     
 
     //load protons
-    var url_proton = "/data/virtual-exp-protons-reduced_selection.vtk";
+    var url_proton = "/bublinka/data/virtual-exp-protons-reduced_selection.vtk";
     actor_proton = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     mapper_proton  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
@@ -20363,7 +20363,7 @@ function init () {
 
 
     //load neutron
-    var url_neutron = "/data/virtual-exp-neutron_18000.vtk";
+    var url_neutron = "/bublinka/data/virtual-exp-neutron_18000.vtk";
     actor_neutron = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     mapper_neutron  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
@@ -20377,7 +20377,7 @@ function init () {
 
 
     //load gamma
-    var url_gamma = "/data/virtual-exp-gamma_44000.vtk";
+    var url_gamma = "/bublinka/data/virtual-exp-gamma_44000.vtk";
     actor_gamma = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     mapper_gamma  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
@@ -20391,7 +20391,7 @@ function init () {
 
 
     //load in air
-    var url_in_air = "/data/virtual-exp-in-air.vtk";
+    var url_in_air = "/bublinka/data/virtual-exp-in-air.vtk";
     actor_in_air = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     mapper_in_air  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
@@ -20407,7 +20407,7 @@ function init () {
 
 
     //load after ess
-    var url_after_ess = "/data/virtual-exp-after-ess.vtk";
+    var url_after_ess = "/bublinka/data/virtual-exp-after-ess.vtk";
     actor_after_ess = __WEBPACK_IMPORTED_MODULE_1_vtk_js_Sources_Rendering_Core_Actor___default.a.newInstance();
     mapper_after_ess  = __WEBPACK_IMPORTED_MODULE_3_vtk_js_Sources_Rendering_Core_Mapper___default.a.newInstance();
 
