@@ -1,0 +1,324 @@
+{
+  "cellData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "FieldData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "vtkClass": "vtkPolyData", 
+  "pointData": {
+    "arrays": [
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "event", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 39992.0, 
+              "component": null, 
+              "min": 15.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "409a7072ec7e8227444400babe8f9b78"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "track", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 556.0, 
+              "component": null, 
+              "min": 1.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "cea882a9d1dbe4bfc610c39e90b7b8a8"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "pdg", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 2212.0, 
+              "component": null, 
+              "min": 2212.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "fe7c446aa49f6e5aad3ea1887f36b574"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "parent", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 15.0, 
+              "component": null, 
+              "min": 0.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "46411df885823b489dddece633b4d0b8"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "x", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 2500.0, 
+              "component": null, 
+              "min": -2500.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "fe7b12b16e06664832128f2ac1c2bee6"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "y", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 2500.0, 
+              "component": null, 
+              "min": -2500.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "6da05ec797c8f859828b216ec2df482b"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "z", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 15000.0, 
+              "component": null, 
+              "min": -1050.3845
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "38d4cf5f596e54af7d6f82260b0b800c"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "t", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 215.89961, 
+              "component": null, 
+              "min": 0.2887361
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "9c19b9508ec62a035baa52cbd0fce58f"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "px", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 0.99982364, 
+              "component": null, 
+              "min": -0.99974411
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "ea8911313450c9aa40074253f14b0bb5"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "py", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 0.99958689, 
+              "component": null, 
+              "min": -0.99925722
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "143a615d07dc34c6041b8c4307ffba11"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "pz", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 1.0, 
+              "component": null, 
+              "min": -0.99999496
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "d5f1897a223c3d82684841518bc5ede5"
+          }, 
+          "size": 492756
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "ekin", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 62.0, 
+              "component": null, 
+              "min": 0.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "e251c256bf87560d4d0ca71b6094e21a"
+          }, 
+          "size": 492756
+        }
+      }
+    ], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "lines": {
+    "numberOfComponents": 1, 
+    "name": "_lines", 
+    "vtkClass": "vtkCellArray", 
+    "dataType": "Uint32Array", 
+    "ranges": [
+      {
+        "max": 492755.0, 
+        "component": null, 
+        "min": 0.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "ac37fef4604f3d4f78f6a95e1cf0d175"
+    }, 
+    "size": 1419729
+  }, 
+  "points": {
+    "numberOfComponents": 3, 
+    "name": "Points", 
+    "vtkClass": "vtkPoints", 
+    "dataType": "Float64Array", 
+    "ranges": [
+      {
+        "max": 2500.0, 
+        "component": null, 
+        "min": -2500.0
+      }, 
+      {
+        "max": 2500.0, 
+        "component": null, 
+        "min": -2500.0
+      }, 
+      {
+        "max": 15000.0, 
+        "component": null, 
+        "min": -1050.3845
+      }, 
+      {
+        "max": 15125.4, 
+        "component": null, 
+        "min": 30.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "cc950a7786f609843ed43cac80576789"
+    }, 
+    "size": 1478268
+  }, 
+  "metadata": {
+    "name": "virtual-exp-protons-reduced_line.vtk"
+  }
+}

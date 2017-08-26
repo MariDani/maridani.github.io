@@ -1,0 +1,326 @@
+{
+  "cellData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "FieldData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "vtkClass": "vtkPolyData", 
+  "pointData": {
+    "arrays": [
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "event", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 39547.0, 
+              "component": null, 
+              "min": 647.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "072d984e9d1560bcede22306b7a9fdc5"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "track", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 556.0, 
+              "component": null, 
+              "min": 1.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "aace1ccfe3d6d78baed7421bad483806"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "pdg", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 2212.0, 
+              "component": null, 
+              "min": 2212.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "1acc101edb652a4cfae8547294fcee0a"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "parent", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Int32Array", 
+          "ranges": [
+            {
+              "max": 1.0, 
+              "component": null, 
+              "min": 0.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "02c198912945c652ee87cc5f89781e7b"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "x", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 2500.0, 
+              "component": null, 
+              "min": -1591.412
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "e72cc536b03cf25d2fd53739f9741953"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "y", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 1503.7663, 
+              "component": null, 
+              "min": -2500.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "b52cb69154308009ab177059a8aef598"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "z", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 15000.0, 
+              "component": null, 
+              "min": 29.909403
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "3287a6fd5b32a54708fcd0ae249480bf"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "t", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 198.02113, 
+              "component": null, 
+              "min": 0.2887361
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "4293cbea686f3d1b0b007d192631bb9d"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "px", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 0.95792494, 
+              "component": null, 
+              "min": -0.99089502
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "e4caa2415d1b56d7e8e5c791435caefd"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "py", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 0.86419599, 
+              "component": null, 
+              "min": -0.99789746
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "b98c4999d9489a2cadad2061d35c4eb7"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "pz", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 0.99999999, 
+              "component": null, 
+              "min": -0.99938544
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "1cfd1ac5d90b7f66511de42fee800d89"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "ekin", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Float64Array", 
+          "ranges": [
+            {
+              "max": 62.0, 
+              "component": null, 
+              "min": 0.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "847943ce5349d1d873e508a201bf5c5c"
+          }, 
+          "size": 61414
+        }
+      }, 
+      {
+        "data": {
+          "numberOfComponents": 1, 
+          "name": "vtkOriginalRowIds", 
+          "vtkClass": "vtkDataArray", 
+          "dataType": "Uint32Array", 
+          "ranges": [
+            {
+              "max": 488289.0, 
+              "component": null, 
+              "min": 1544.0
+            }
+          ], 
+          "ref": {
+            "encode": "LittleEndian", 
+            "basepath": "data", 
+            "id": "39a4d7832253bf5b35ed835a3cb22499"
+          }, 
+          "size": 61414
+        }
+      }
+    ], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "points": {
+    "numberOfComponents": 3, 
+    "name": "Points", 
+    "vtkClass": "vtkPoints", 
+    "dataType": "Float64Array", 
+    "ranges": [
+      {
+        "max": 2500.0, 
+        "component": null, 
+        "min": -1591.412
+      }, 
+      {
+        "max": 1503.7663, 
+        "component": null, 
+        "min": -2500.0
+      }, 
+      {
+        "max": 15000.0, 
+        "component": null, 
+        "min": 29.909403
+      }, 
+      {
+        "max": 15073.9, 
+        "component": null, 
+        "min": 30.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "1f5096ae41b2e3c2cec9da44cfaf03de"
+    }, 
+    "size": 184242
+  }, 
+  "verts": {
+    "numberOfComponents": 1, 
+    "name": "_verts"        	 
+                        ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l

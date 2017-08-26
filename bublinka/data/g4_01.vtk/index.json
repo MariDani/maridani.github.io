@@ -1,0 +1,90 @@
+{
+  "cellData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "FieldData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "vtkClass": "vtkPolyData", 
+  "polys": {
+    "numberOfComponents": 1, 
+    "name": "_polys", 
+    "vtkClass": "vtkCellArray", 
+    "dataType": "Uint32Array", 
+    "ranges": [
+      {
+        "max": 3224.0, 
+        "component": null, 
+        "min": 0.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "03468f528ba5090f440b288a3cd40dad"
+    }, 
+    "size": 17700
+  }, 
+  "pointData": {
+    "arrays": [], 
+    "vtkClass": "vtkDataSetAttributes"
+  }, 
+  "lines": {
+    "numberOfComponents": 1, 
+    "name": "_lines", 
+    "vtkClass": "vtkCellArray", 
+    "dataType": "Uint32Array", 
+    "ranges": [
+      {
+        "max": 6265.0, 
+        "component": null, 
+        "min": 2.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "965b4c3569e25c687f921b9db8027b3e"
+    }, 
+    "size": 3222
+  }, 
+  "points": {
+    "numberOfComponents": 3, 
+    "name": "Points", 
+    "vtkClass": "vtkPoints", 
+    "dataType": "Float32Array", 
+    "ranges": [
+      {
+        "max": 1557.0, 
+        "component": null, 
+        "min": -687.0
+      }, 
+      {
+        "max": 640.0, 
+        "component": null, 
+        "min": -700.0
+      }, 
+      {
+        "max": 10181.5, 
+        "component": null, 
+        "min": -3196.0
+      }, 
+      {
+        "max": 10181.6, 
+        "component": null, 
+        "min": 0.0
+      }
+    ], 
+    "ref": {
+      "encode": "LittleEndian", 
+      "basepath": "data", 
+      "id": "0cfd86ba1bfcf6733a3c4e922d2da089"
+    }, 
+    "size": 18798
+  }, 
+  "metadata": {
+    "name": "g4_01.vtk"
+  }
+}
